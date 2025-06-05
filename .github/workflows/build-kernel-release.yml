@@ -20,7 +20,7 @@ on:
 
 jobs:
   build-kernel-coral:
-    uses: ./.github/workflows/build-kernel-coral.yml
+    uses: ./.github/workflows/build-kernel-redbull-a12.yml
     secrets: inherit
     if: ${{ inputs.build_coral }}
     
